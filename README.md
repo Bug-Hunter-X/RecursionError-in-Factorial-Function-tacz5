@@ -1,0 +1,2 @@
+# RecursionError in Python Factorial Function
+This example demonstrates a common error in recursive functions: a missing or incorrect base case that leads to infinite recursion and a `RecursionError`. The `factorial` function calculates the factorial of a non-negative integer. However, if a negative integer is passed as an argument, the function will keep calling itself without ever reaching the base case, resulting in a stack overflow error.
